@@ -1,0 +1,33 @@
+Inline CSS - Applied directly to individual HTML elements using the style attribute.
+<p style="color: red; font-size: 16px;"> A paragraph in inline CSS.</p>
+
+Internal CSS - Defined within the <style> element, typically placed within the <head> section of an HTML document.
+<head>
+    <style>
+        p {
+            color: blue;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <p>This is a paragraph with internal CSS.</p>
+</body>
+
+
+
+
+External CSS - defined in a separate CSS file and linked to the HTML document using the <link> element.
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+p {
+    color: green;
+    font-size: 18px;
+}
+p {
+    color: green;
+    font-size: 18px;
+}
