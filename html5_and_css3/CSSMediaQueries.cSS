@@ -1,0 +1,62 @@
+/*This example applies styles when the user's 
+primary input mechanism (such as a mouse) can 
+hover over elements:*/
+
+@media (hover: hover) { 
+    /* … */ 
+}
+
+/*Example 2
+
+The CSS will apply styles only if your browser's viewport width is 
+equal to or narrower than 1250px:*/
+
+@media (max-width: 1250px) { 
+    /* … */ 
+} 
+
+/*Example 1
+
+If the browser window is 600px or smaller, the background color will be lightblue:
+
+*/
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+     }
+   }
+  
+/*Typical Device Breakpoints*/
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+
+/*Change Font Size With Media Queries
+
+You can also use media queries to change the font size of an element on 
+different screen sizes:
+
+Example
+*/
+
+/* If the screen size is 769px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 769px) {
+    div.progskill {
+      font-size: 80px;
+     }
+   }
+   
+   /* If the screen size is 768px or less, set the font-size of <div> to 30px */
+   @media only screen and (max-width: 768px) {
+    div.progskill {
+      font-size: 30px;
+     }
+   }
+   
